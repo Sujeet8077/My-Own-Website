@@ -133,3 +133,14 @@ section {
 .icon:hover i {
     color: #007BFF;
 }
+
+@media (max-width: 600px) {
+  .social-icons {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .icon i {
+    font-size: 25px;
+  }
+}
